@@ -9,6 +9,6 @@ jobs:
     permissions:
       contents: read
       issues: write
-    uses: theupdateframework/specification/.github/workflows/check-latest-spec-version.yml@master
+    uses: theupdateframework/specification/.github/workflows/check-latest-spec-version.yml@258ad50dd7fdb77e77e651b186a3468d4039ccdb # master
     with:
       tuf-version: "v1.0.31" # Should be updated to the according version either manually or extracted automatically as how it's done in python-tuf
